@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    color: #fff;
+    font-family: "Jomolhari", serif;
+    background: #000000;
+}
+
+.container {
+    max-width: 1240px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+
+.header__nav-container {
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 0px;
+    height: 80px;
+    display: flex;
+}
+
+.header__nav-register {
+    display: flex;
+    gap: 30px;
+}
+
+.header__login,
+.header__signup,
+.header__creat {
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header__login:hover,
+.header__signup:hover,  
+.header__creat:hover {
+    color: #f4b400;
+}
+
+.header__hero-img {
+    width: 100%;
+}
+
+.articles__title {
+    line-height: 73.67px;
+    color: #fff;
+    margin: 37px 0px 30px 0;
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.articles {
+    padding-bottom: 52px;
+}
+
+.articles__about {
+    width: 100%;
+    height: 336px;
+}
+
+.articles__about-wrapper {
+    height: 500px;
+    font-size: 18px;
+    background: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+   
+    display: block;
+}
+
+#articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.card {
+    background-color: #755c51;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+     border: 2px solid #F0DE36;
+    width: 250px;
+    min-height: 200px;
+    cursor: pointer ;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card h3 {
+    margin: 10px;
+    font-size: 1.2em;
+}
+.card p {
+    margin: 10px;
+    color: #fdfcfc;
+}
+.avatar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #d1c2c2;
+    border-bottom: 1px solid #d1c2c2;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    height: 200px;
+}
+.card__logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.avatar-wrapper div {
+    display: flex;
+    flex-direction: column;
+}
+.avatar-wrapper strong {
+    font-size: 1em;
+    margin: 0;
+}
+.avatar-wrapper p {
+    margin: 0;
+    color: #d1c2c2;
+}

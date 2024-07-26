@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    color: #fff;
+    font-family: "Jomolhari", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #F5C147;
+    border-radius: 46px;
+    max-width: 484px;
+    width: 100%;
+    padding: 25px 56px;
+}
+
+.signup__heading {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 41.64px;
+    padding: 20px 0;
+    color: black;
+}
+
+.signup__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.signup__text {
+    text-align: left;
+    padding: 16px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.42px;
+    color: #000000;
+}
+
+.signup__input {
+    border: 3px solid #000000;
+    padding: 14px 22px;
+    outline: none;
+    border-radius: 17px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.signup__btn {
+    padding: 15px 67px;
+    background: #000000;
+    border-radius: 23px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32.03px;
+    border: none;
+    cursor: pointer;
+}
+
+.signup__btn:hover {
+    background: greenyellow;
+    color: #000;
+}   
+
+.signup__img {
+    border-radius: 50px;
+}
